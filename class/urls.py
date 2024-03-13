@@ -8,7 +8,10 @@ urlpatterns = [
     path('contact/', views.contacts),
     path('services/',views.services),
     path('index/', views.index),
-    path('iportfolio/', views.iportfolio)
+    path('iportfolio/', views.iportfolio),
+    path('students/', views.student),
+    path('teachers/', views.teachers),
+    path('insert_students/', views.insert_students)
 
 
 ]
